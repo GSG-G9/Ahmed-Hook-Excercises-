@@ -7,7 +7,7 @@ import {useState} from 'react'
     return (
         <div style={{backgroundColor: color}} >
 
-            {colors.map((cc)=><button onClick={()=>setColor(cc)} key={cc} >{cc}</button>)}
+            {colors.map((cc)=><button onClick={()=>setColor(cc)} key={cc}>{cc}</button>)}
         </div>
     )
 }
